@@ -71,7 +71,7 @@ dateElement.addEventListener("change", () => {
   let age = getAge(dob);
 
   if (age < 18 || age > 55) {
-    dateElement.setCustomValidity("Your doesn't lies between 18 and 55.");
+    dateElement.setCustomValidity("Your age doesn't lies between 18 and 55.");
   } else {
     dateElement.setCustomValidity("");
   }
